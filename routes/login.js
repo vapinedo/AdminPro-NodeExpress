@@ -1,10 +1,10 @@
-var express = require('express');
-var bcrypt = require('bcryptjs');
-var jwt = require('jsonwebtoken');
-var SEED = require('../config/config').SEED;
+const express = require('express');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+const SEED = require('../config/config').SEED;
 
-var app = express();
-var Usuario = require('../models/usuario');
+const app = express();
+const Usuario = require('../models/usuario');
 
 app.post('/', (req, res) => {
 
