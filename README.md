@@ -8,6 +8,6 @@ npm install
 ```
 
 ## NOTA: Google Sign In 
-Dentro del proyecto existe una carpeta llamada google-signin-demo, el cual es un pequeño proyecto o una pequeña pagina web que implemente un Inicio de Sesión o Sign In con la API de Google, y se authentica contra el Backend-Server construído con Node JS Usando Express, es decir se conecta con el proyecto que contiene a esta carpeta.
+Dentro del proyecto existe una carpeta llamada google-signin-demo, el cual es un pequeño Front End que implementa un Inicio de Sesión o Sign In con la API de Google, y se authentica contra el Backend-Server construído con Node JS Usando Express, es decir se conecta con el proyecto que contiene a esta carpeta.
 
 Esa carpeta google-signin-demo, se debe colocar aparte, es decir se debe sacar de este proyecto, para luego hacer uso de ella.
